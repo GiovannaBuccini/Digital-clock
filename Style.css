@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://thumbs.gfycat.com/AcademicRepulsiveBeardeddragon-size_restricted.gif);
+    background-size: cover;
+    color: white;
+  }
+  
+  span {
+    font-size: 90px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  #hour, #min, #sec {
+    box-shadow: 0 0 15px 5px rgb(0, 0, 0);
+  }
+  
+  @media (max-width: 500px) {
+    span {
+      font-size: 50px;
+      margin: 0;
+    }
+  }
